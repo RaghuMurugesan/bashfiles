@@ -1,9 +1,9 @@
 # .bash_profile
 
 # Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-        . ~/.bashrc
-fi
+#if [ -f ~/.bashrc ]; then
+#        . ~/.bashrc
+#fi
 
 # User specific environment and startup programs
 #####Uncomment below two lines if some problem occurs
@@ -15,7 +15,7 @@ fi
     if [ -f ~/.bash_alias ]; then
         source ~/.bash_alias
     else
-        source .bash_alias
+        source ~/git/ragmurug/bash_alias
     fi
 #--------------------------------------------# 
 
@@ -26,18 +26,18 @@ fi
     if [ -f ~/.bash_colour ]; then
         source ~/.bash_colour
     else
-        source .bash_colour
+        source ~/git/bashfiles/bash_colour
     fi
 #--------------------------------------------#
 
 
 #--------------------------------------------#
 #Source .bash_symlink
-    if [ -f ~/.bash_colour ]; then
-        source ~/.bash_symlink
-    else
-        source .bash_symlink
-    fi
+#   if [ -f ~/.bash_colour ]; then
+#       source ~/.bash_symlink
+#   else
+#       source ~/git/bashfiles/bash_symlink
+#   fi
 #--------------------------------------------#
 
 
